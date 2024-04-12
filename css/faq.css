@@ -1,0 +1,31 @@
+.main2{
+    text-align: center;
+}
+
+
+
+.main h1,p{
+    text-align: center;
+}
+
+.main2-faq1,.main2-faq2,.main2-faq3,.main2-faq4,.main2-faq5,.main2-faq6,.main2-faq7,.main2-faq8{
+    border: 2px solid grey;
+    flex: auto;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.main input {
+    margin-left: 1400px;
+    padding: 10px;
+    text-align: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}

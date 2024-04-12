@@ -1,0 +1,68 @@
+.main1 {
+    text-align: center;
+}
+
+
+.main2 {
+    text-align: center;
+    
+}
+
+button {
+    margin-top: 30px;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin-right: -10px;
+    border: 3px solid grey;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+.profile ul { 
+    display: block;
+    padding: 0; list-style: none;
+}
+
+
+.profile1 {
+    position: absolute;
+    background-color: whitesmoke;
+    border: 10px solid red;
+    padding: 30px;
+    margin-left: 605px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.profile2 {
+    position: absolute;
+    background-color: whitesmoke;
+    border: 10px solid red;
+    padding: 20px;
+    margin-left: 850px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.profile3 {
+    
+    border: 10px solid red;
+    padding: 20px;
+    margin-left: 1100px;
+    margin-right: 530px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
