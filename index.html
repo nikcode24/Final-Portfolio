@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/gallery.js"></script>
+    <!--<script src="/js/index.js"></script>-->
+    <title>Home Page</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>Welcome To Home Page.</h1>
+            <nav>
+                <ul>
+                    <li><a href="/index.html" target="_blank">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/pricing.html">Pricing</a></li>
+                    <li><a href="/faq.html">Faq</a></li>
+                    <li><a href="/help.html">Help</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="main">
+        <h1>Best Prodcuts in Market.</h1>
+        <div class="main-images">
+            <img class="main-images1"  src="/images/gallery/gallery1.jpeg" alt="Gallery1">
+            <img class="main-images2" src="/images/gallery/gallery2.jpeg" alt="Gallery2">
+            <img class="main-images3" src="/images/gallery/gallery3.jpeg" alt="Gallery3"><br><br>
+            <button>Shop Now</button>
+        </div>
+
+        <div class="main-gallery">
+            <h2 style="text-align: center">Featured Products Gallery</h2>
+            <ul>
+                <li><div><img id="galleryImage" src="/images/gallery/gallery1.jpeg" width="25%" height="15%"  alt="Gallery"></div></li><h1 id="price">Price: $20</h1>
+                <button onclick="gallery();price();">clickme</button>
+            </ul>
+        </div>
+
+        <div class="newsletter">
+            <div class="newsletter1">
+                <h1>Newsletter</h1>
+                <p>Subscribe to our newsletter for daily Updates.</p>
+            </div>
+            <div class="newsletter2">
+                <input type="email" placeholder="Email Address"><label><button>Subscribe</button></label>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product-main1">
+                <img src="/images/gallery/product1.jpeg" width="300px" height="330px"  alt="Product">
+                <br>Bag $30
+            </div>
+            <div class="product-main2">
+                <div class="product-main-row1">
+                    <img src="/images/gallery/product2.jpeg"  alt="Product2">
+                    <p>Bag $20</p>
+                    <img src="/images/gallery/product3.jpeg"  alt="Product3">
+                    <p>Bag $35</p>
+                </div>
+                <div class="product-main-row2">
+                    <img src="/images/gallery/product4.jpeg"  alt="Product4">
+                    <p>Bag $60</p>
+                    <img src="/images/gallery/product5.jpeg"  alt="Product5">
+                    <p>Bag $42</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about" style="text-align: center;">
+            <h1>Welcome to MyCompany</h1>
+            <h3>MyCompany is a leading provider of innovative solutions, offering top-notch services and products to meet diverse needs.
+                <br> With a commitment to excellence and customer satisfaction, we strive to exceed expectations. Join us on our journey as we continue to grow and make a positive impact in the industry.</h3>
+        </div>
+
+    </main>
+    
+
+    <footer class="footer">
+        <div class="footer__addr">
+            <h1 class="footer__logo">Mycompany</h1>
+            <h2>Contact</h2>
+            <address>
+                123 Main Street<br>
+                Cityville, State 12345<br>
+                United States<br>
+                <a class="footer__btn" href="mailto:contact@yourcompany.com">Email Us</a>
+            </address>
+        </div>
+        
+        <ul class="footer__nav">
+            <li class="nav__item">
+                <h2 class="nav__title">MoveTo</h2>
+                <ul class="nav__ul">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/pricing.html">Pricing</a></li>
+                </ul>
+            </li>
+            
+            <li class="nav__item nav__item--extra">
+                <h2 class="nav__title">Technology</h2>
+                <ul class="nav__ul nav__ul--extra">
+                    <li><a href="#">Hardware Design</a></li>
+                    <li><a href="#">Software Design</a></li>
+                    <li><a href="#">Digital Signage</a></li>
+                    <li><a href="#">Automation</a></li>
+                    <li><a href="/faq.html">Faq</a></li>
+                    <li><a href="/help.html">Help</a></li>
+                </ul>
+            </li>
+            
+            <li class="nav__item">
+                <h2 class="nav__title">Legal</h2>
+                <ul class="nav__ul">
+                    <li><a href="#privacy.html">Privacy Policy</a></li>
+                    <li><a href="#terms.html">Terms of Use</a></li>
+                    <li><a href="#sitemap.html">Sitemap</a></li>
+                </ul>
+            </li>
+        </ul>
+        
+        <div class="legal">
+            <p>&copy; 2024 Mycom.pvt.ltd. All rights reserved.</p>
+            <div class="legal__links">
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
